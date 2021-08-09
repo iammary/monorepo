@@ -1,4 +1,4 @@
 import { meaningOfLife } from "@jestest/foo";
 
 // eslint-disable-next-line no-console
-console.log(meaningOfLife);
+console.log(meaningOfLife + 1);

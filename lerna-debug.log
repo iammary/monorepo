@@ -1,0 +1,8 @@
+50 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
+50 error ERROR: Permission to NiGhTTraX/ts-monorepo.git denied to iammary.
+50 error fatal: Could not read from remote repository.
+50 error
+50 error Please make sure you have the correct access rights
+50 error and the repository exists.
+50 error     at makeError (/Users/jes/Source/lendlease/monorepo/node_modules/execa/lib/error.js:59:11)
+50 error     at handlePromise (/Users/jes/Source/lendlease/monorepo/node_modules/execa/index.js:114:26)

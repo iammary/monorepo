@@ -1,5 +1,5 @@
 {
-  "name": "@jestest/foo",
+  "name": "@thecaffeinateddev/foo",
   "version": "1.0.12",
   "main": "dist/index",
   "types": "dist/index",
@@ -17,5 +17,5 @@
     "rimraf": "~3.0.2",
     "typescript": "~4.3.0"
   },
-  "gitHead": "343b8e2e1123da6c4f7b3b7ab0ce06e72acdc1a1"
+  "gitHead": "9a74b3002f07545cc6b39ab180af1b2885e9cc67"
 }

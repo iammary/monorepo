@@ -1,4 +1,4 @@
-import { meaningOfLife } from "@jestest/foo";
+import { meaningOfLife } from "@thecaffeinateddev/foo";
 
 // eslint-disable-next-line no-console
 console.log(meaningOfLife + 3);

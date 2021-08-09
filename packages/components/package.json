@@ -1,5 +1,5 @@
 {
-  "name": "@jestest/components",
+  "name": "@thecaffeinateddev/components",
   "version": "1.0.12",
   "main": "dist/index",
   "types": "dist/index",
@@ -14,12 +14,12 @@
     "react": "~17.0.0"
   },
   "dependencies": {
-    "@jestest/foo": "^1.0.12"
+    "@thecaffeinateddev/foo": "^1.0.12"
   },
   "devDependencies": {
     "@types/react": "~17.0.0",
     "react": "~17.0.0",
     "react-dom": "~17.0.0"
   },
-  "gitHead": "343b8e2e1123da6c4f7b3b7ab0ce06e72acdc1a1"
+  "gitHead": "9a74b3002f07545cc6b39ab180af1b2885e9cc67"
 }

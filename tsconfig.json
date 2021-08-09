@@ -4,8 +4,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@jestest/components/*": ["packages/components/src/*"],
-      "@jestest/*": ["packages/*/src"]
+      "@thecaffeinateddev/components/*": ["packages/components/src/*"],
+      "@thecaffeinateddev/*": ["packages/*/src"]
     },
     "noEmit": true
   }

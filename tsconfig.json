@@ -4,8 +4,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@nighttrax/components/*": ["packages/components/src/*"],
-      "@nighttrax/*": ["packages/*/src"]
+      "@jestest/components/*": ["packages/components/src/*"],
+      "@jestest/*": ["packages/*/src"]
     },
     "noEmit": true
   }

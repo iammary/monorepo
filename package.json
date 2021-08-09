@@ -1,5 +1,5 @@
 {
-  "name": "ts-monorepo",
+  "name": "ts-monorepozz",
   "description": "Template for setting up a TypeScript monorepo",
   "private": true,
   "workspaces": [

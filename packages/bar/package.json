@@ -1,6 +1,6 @@
 {
   "name": "@jestest/bar",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index",
   "types": "dist/index",
   "files": [
@@ -14,7 +14,7 @@
     "test": "yarn run build"
   },
   "dependencies": {
-    "@jestest/foo": "^1.0.5"
+    "@jestest/foo": "^1.0.6"
   },
   "devDependencies": {
     "rimraf": "~3.0.2",

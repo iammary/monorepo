@@ -1,7 +1,7 @@
 import * as Keycloak from "keycloak-js";
 
-import { MIN_VALIDITY_TO_REFRESH, MIN_REFRESH_INTERVAL } from "packages/services/src/constants";
-import { KeyCloakInitOptions } from "packages/services/src/AuthService/authModels";
+import { MIN_VALIDITY_TO_REFRESH, MIN_REFRESH_INTERVAL } from "@thecaffeinateddev/services/constants";
+import { KeyCloakInitOptions } from "@thecaffeinateddev/services/AuthService/authModels";
 
 const base = window as any;
 //keycloak init options for https://keycloak-dev-pad-new.csc-dev.podium.io

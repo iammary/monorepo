@@ -1,6 +1,6 @@
 import axios from "axios";
-import { ErrorPages, POLLING_URL } from "packages/services/src/constants";
-import AuthService from "packages/services/src/AuthService";
+import { ErrorPages, POLLING_URL } from "@thecaffeinateddev/services/constants";
+import AuthService from "@thecaffeinateddev/services/AuthService";
 
 // eslint-disable-next-line no-underscore-dangle
 const _axios = axios.create();

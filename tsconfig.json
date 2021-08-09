@@ -5,7 +5,7 @@
     "baseUrl": ".",
     "paths": {
       "@thecaffeinateddev/components/*": ["packages/components/src/*"],
-      "@thecaffeinateddev/services/*": ["@thecaffeinateddev/services/*"],
+      "@thecaffeinateddev/services/*": ["@thecaffeinateddev/services/src/*"],
       "@thecaffeinateddev/*": ["packages/*/src"]
     },
     "noEmit": true

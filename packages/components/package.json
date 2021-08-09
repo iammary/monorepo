@@ -1,6 +1,6 @@
 {
   "name": "@thecaffeinateddev/components",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
@@ -14,7 +14,7 @@
     "react": "~17.0.0"
   },
   "dependencies": {
-    "@thecaffeinateddev/foo": "^1.0.12"
+    "@thecaffeinateddev/foo": "^1.0.13"
   },
   "devDependencies": {
     "@types/react": "~17.0.0",

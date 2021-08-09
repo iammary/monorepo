@@ -1,6 +1,6 @@
 {
   "name": "@jestest/components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
@@ -14,7 +14,7 @@
     "react": "~17.0.0"
   },
   "dependencies": {
-    "@jestest/foo": "^1.0.3"
+    "@jestest/foo": "^1.0.4"
   },
   "devDependencies": {
     "@types/react": "~17.0.0",

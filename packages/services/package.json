@@ -1,0 +1,21 @@
+{
+  "name": "@thecaffeinateddev/services",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "build": "yarn run clean && yarn run compile",
+    "clean": "rimraf -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "yarn run build",
+    "test": "yarn run build"
+  },
+  "peerDependencies": {
+    "react": "~17.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "keycloak-js": "^15.0.0"
+  },
+  "gitHead": "9a74b3002f07545cc6b39ab180af1b2885e9cc67"
+}

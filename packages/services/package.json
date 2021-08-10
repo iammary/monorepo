@@ -3,9 +3,6 @@
   "version": "1.0.2",
   "main": "dist/index",
   "types": "dist/index",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "yarn run clean && yarn run compile",
     "clean": "rimraf -rf ./dist",

@@ -8,6 +8,7 @@
       "@thecaffeinateddev/services/*": ["packages/services/src/*"],
       "@thecaffeinateddev/*": ["packages/*/src"]
     },
-    "noEmit": true
+    "noEmit": true,
+    "typeRoots": ["@types", "node_modules/@types"]
   }
 }

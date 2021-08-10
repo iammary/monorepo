@@ -1,6 +1,6 @@
 import axios from "axios";
-import { ErrorPages, POLLING_URL } from "@thecaffeinateddev/services/constants";
-import AuthService from "@thecaffeinateddev/services/AuthService";
+import { ErrorPages, POLLING_URL } from "../constants";
+import AuthService from "../AuthService";
 
 // eslint-disable-next-line no-underscore-dangle
 const _axios = axios.create();
@@ -43,15 +43,13 @@ const handleSuccess = (response: any) => {
 };
 
 const handleError = (error: any) => {
-  if (error.response) {
-  }
   return Promise.reject(error);
 };
 
-const redirectTo = (document: any, path: string) => {
-  // eslint-disable-next-line no-param-reassign
-  document.location = path;
-};
+// const redirectTo = (document: any, path: string) => {
+//   // eslint-disable-next-line no-param-reassign
+//   document.location = path;
+// };
 
 const getAxiosClient = () => _axios;
 

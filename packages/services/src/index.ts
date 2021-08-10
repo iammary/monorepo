@@ -1,5 +1,5 @@
-export { default as AuthService } from "@thecaffeinateddev/services/AuthService";
-export * from "@thecaffeinateddev/services/AuthService";
+export { default as AuthService } from "./AuthService";
+export * from "./AuthService";
 
-export { default as HttpService } from "@thecaffeinateddev/services/HttpService";
-export * from "@thecaffeinateddev/services/HttpService";
+export { default as HttpService } from "./HttpService";
+export * from "./HttpService";

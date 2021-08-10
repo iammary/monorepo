@@ -1,7 +1,7 @@
-export { default } from "@thecaffeinateddev/services/AuthService/AuthService";
-export * from "@thecaffeinateddev/services/AuthService/AuthService";
+export { default } from "../AuthService/AuthService";
+export * from "../AuthService/AuthService";
 
-export { default as AuthContext } from "@thecaffeinateddev/services/AuthService/AuthContext";
-export * from "@thecaffeinateddev/services/AuthService/AuthService";
+export { default as AuthContext } from "../AuthService/AuthContext";
+export * from "../AuthService/AuthService";
 
-export * from "@thecaffeinateddev/services/AuthService/authModels";
+export * from "../AuthService/authModels";

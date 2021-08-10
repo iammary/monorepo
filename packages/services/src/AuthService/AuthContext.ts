@@ -1,6 +1,6 @@
 import React from "react";
-import AuthService from "@thecaffeinateddev/services/AuthService/AuthService";
-import { AuthInfo } from "@thecaffeinateddev/services/AuthService/authModels";
+import AuthService from "../AuthService/AuthService";
+import { AuthInfo } from "../AuthService/authModels";
 
 const authInfo: AuthInfo = {
   userInfo: {},

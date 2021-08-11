@@ -7,7 +7,7 @@
     "build": "yarn run clean && yarn run compile",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc -p tsconfig.build.json",
-    "prepublishOnly": "yarn run build && cp -r ./dist/* . && rm -rf ./dist && rm -rf ./src",
+    "prepublishOnly": "yarn run build && cp -r ./dist/* . && rm -rf ./dist && rm -rf ./src && find . -name 'tsconfig.*' #-delete",
     "postpublish": "git clean -fd && git restore .",
     "test": "yarn run build"
   },

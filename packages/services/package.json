@@ -19,5 +19,8 @@
     "typescript": "~4.3.0"
   },
   "gitHead": "f22fb54193ffe98b0244c914aec37cc24ee1eb22",
-  "sideEffects": false
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ]
 }

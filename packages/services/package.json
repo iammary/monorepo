@@ -1,6 +1,6 @@
 {
   "name": "@thecaffeinateddev/services",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "index",
   "types": "index",
   "scripts": {

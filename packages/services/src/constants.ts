@@ -5,7 +5,7 @@ export const ErrorPages = {
   PAGE_404: "/404",
   PAGE_400: "/400",
   PAGE_503: "/503",
-  PAGE_500: "/500"
+  PAGE_500: "/500",
 };
 
 // if the token expires with in min validity(in secs) , token gets refreshed
